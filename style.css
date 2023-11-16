@@ -1,0 +1,365 @@
+/**
+.first{
+    display: flex;
+     justify-content: space-between;
+}
+.link{
+     
+}
+.link a{
+     text-decoration: none;
+      margin-left: 25px;
+       font-size: 20px;
+}
+.soda{
+    display: flex;
+}
+ .travail{
+     display: flex;
+ }
+ .boy{
+ display: flex;
+  justify-content: space-between;
+   gap: 20px;
+    padding: 30px;
+ }
+.Men{
+    text-align: center;color: #00b39b;
+}
+
+.sect{
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+.Tall{
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    gap: 50px;
+}
+.opt{
+    background-color: #00b39b;
+}
+.top{
+    background-color: dodgerblue;
+}
+
+.jeu{
+    background-color: black;
+}
+
+.one{ text-align: center;color: #00b39b;
+    display: flex;
+    margin: 20px; ;
+}
+.two{
+    margin-left: 50px;
+    display: flex;
+    gap: 70px;
+}
+.pro{
+    margin-left: 50px;
+    display: flex;
+    gap: 70px;
+}
+.diop{
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+}
+.bell{
+    text-align: left;
+    margin-left: 20px;
+}
+.beau{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pa{
+    background-color:white;
+    line-height: 2;
+}
+.tons{
+    background-color:white;
+
+}
+.ta{
+    background-color:white 
+
+}
+.to{
+    background-color:white
+}
+.ma{
+    display: flex;justify-content: space-between;
+    
+}
+.tom{
+    display: flex;justify-content: space-between;
+
+
+}
+.tam{
+    display: flex;justify-content: space-between;
+}
+
+**/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.first a{
+    list-style: none;
+}
+.link{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.marie{
+    text-align: center;
+}
+.body {
+    text-decoration: none;
+}
+.boy{
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 50px; 
+    display: flex;
+    font-size: 20px;
+
+}
+
+.opt{
+    background-color: #00b39b;
+    border-radius: 3% 3% 3% 3%;
+    height: 500px; width: 400px;
+
+    
+}
+.top{
+    background-color: dodgerblue;
+    border-radius: 3% 3% 3% 3%;
+    height: 500px; width: 400px;
+
+}
+.jeu{
+    background-color: black;
+    border-radius: 3% 3% 3% 3%;
+    height: 500px; width: 400px;
+
+}
+
+.Tall{
+  justify-content: center;
+    margin-left: 1%;height: 40%px; width: 50%px;
+    display: flex;
+    gap: 50px;
+}
+.one{
+    display: flex;
+    text-align: center;
+    gap: 10%;
+    margin: 50px;
+    padding: 50px;
+}
+.lo{
+    gap: 40px;
+    display: flex;
+}
+.pro{
+   display: flex;
+   gap: 40px;
+}
+.wade{
+    margin-left: 20px;
+    display: flex;
+}
+
+ .soda{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #b9f5ed;
+}
+.travail{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-left: 50rem;
+margin-top: -260px;
+gap: 20px;
+}
+.pa{
+    border: none;
+    color: #00b39b;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: white;
+}
+.tons{
+    border: none;
+    color: #00b39b;
+    background-color: white;
+  
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ta{
+    border: none;
+    color: #00b39b;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+.to{
+    border: none;
+    color: #00b39b;
+    background-color: white;
+   
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ami{
+    color: #00b39b;
+
+}
+
+.diarra{
+    font-size: 20px;
+}
+.lide{
+    font-size: 20px;
+margin-top: 50px;
+}
+.bousso{
+    text-align: center;
+    margin: 50px;
+}
+.ba{ 
+    text-align: center;justify-content: space-between;
+display: block;
+    gap: 70px;
+    margin: 50px;
+
+}
+.sadio{
+    display: flex;
+    gap: 50px;
+    margin: 40px;
+    justify-content: space-around;
+}
+.bgt{
+    margin-left: 50px;
+    display: block;
+}
+.ka{
+    display: flex;
+    gap: 70px;
+    margin: 50px;
+    justify-content: space-around;
+}
+.bgt1{
+    width: 350px;
+    margin: 50px;
+}
+
+
+#pa1{
+    color: black;
+}
+#tons1{
+    color: black;
+}
+#ta1{
+    color: black;
+}
+#to1{
+    color: black;
+}
+#Men{
+    color: #00b39b;
+}
+.ney{
+    text-align: center;
+}
+.fin{
+    text-align: center;
+}
+.bgt{
+    display: flex;
+}
+
+#go{
+    color: antiquewhite;
+}
+#lets{
+    color: antiquewhite;
+    font-size: 30px;
+}
+#back{
+    color:  antiquewhite;
+}
+#home{
+    color: antiquewhite;
+}
+#give{
+    color: antiquewhite;
+}
+#never{
+    color: antiquewhite;
+}
+#moto{
+    color: #00b39b;
+}
+.two{
+    font-size: 50px;
+}
+.bmw{
+    display: flex;
+    gap: 50px;
+    text-align: center;justify-content: space-around;
+}
+.logo{
+    margin: 80px;
+}
+.main-menu{
+    display: flex;gap: 20px;
+}
+.sow{
+    margin-top: 50px;
+}
+.mass{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+   
